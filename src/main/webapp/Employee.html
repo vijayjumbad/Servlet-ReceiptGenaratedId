@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+        function gfg() {
+            var minm = 10000;
+            var maxm = 99999;
+            down.innerHTML = Math.floor(Math
+            .random() * (maxm - minm + 1)) + minm;
+        }
+    </script>
+</head>
+<body>
+<form action="controller" method="post" >
+<table>
+<tr>
+<td>Date::</td>
+<td><input type="date" name="date"></td>
+</tr>
+<tr>
+<td>partnerId::</td>
+<td><input type="text" name="partnerId"></td>
+</tr>
+<tr>
+<td> Receipt No::</td>
+<td><input type="text" name="receiptNo"></td>
+</tr>
+<tr>
+<td> Branch code::</td>
+<td><input type="text" name="branchCode"></td>
+</tr>
+<tr>
+<td> Gst Amt::</td>
+<td><input type="text" name="gstAmt"></td>
+</tr>
+
+<tr>
+<td><input type="submit"  onclick="gfg()"  value="register"></td>
+<td><input type="reset" value="cancel"></td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
